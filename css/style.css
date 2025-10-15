@@ -1,0 +1,14 @@
+.text {
+	color: blue;
+}
+
+.btn2 {
+	color: black;
+	border: 2px solid black;
+}
+
+.btn2:hover {
+	color: aliceblue;
+	background-color: #198754;
+	border: 2px solid #198754;
+}
