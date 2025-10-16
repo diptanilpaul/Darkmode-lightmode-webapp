@@ -5,6 +5,8 @@
 	--nav-item-hover-color:rgba(116, 121,252 );
 	--btn-background-color: rgb(251, 251, 255);
 	--btn-color:rgb(23, 23, 24);
+	--heading-color:rgb(37, 193, 10);
+	--paragraph-color:black;
 
 }
 
@@ -15,6 +17,8 @@
 	--nav-item-hover-color:rgba(116, 121,252 );
 	--icon-color:rgb(217, 0, 255);
 	--icon-color:blue;
+	--heading-color:rgb(241, 234, 241);
+	--paragraph-color:rgb(250, 245, 245);
 }
 
 .nav-link {
@@ -40,4 +44,32 @@
 	color:var(--icon-color);
 	font-size: 24px;
 
+}
+.h-text{
+
+	color: var(--heading-color);
+
+}
+.btn-2{
+	background-color: orange;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border:none;
+	border-radius: 8px;
+}
+.btn-3{
+	background-color: orange;
+	color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid orchid;
+	border-radius: 8px;
+}
+.h{
+	height: 70dvh;
 }
