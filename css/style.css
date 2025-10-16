@@ -1,14 +1,43 @@
-.text {
-	color: blue;
+:root{
+	--back-color:white;
+	--nav-item-color:rgb(13, 12, 12);
+	--nav-item-active-color:rgba(68, 0, 255, 0.348);
+	--nav-item-hover-color:rgba(116, 121,252 );
+	--btn-background-color: rgb(251, 251, 255);
+	--btn-color:rgb(23, 23, 24);
+
 }
 
-.btn2 {
-	color: black;
-	border: 2px solid black;
+.dark-theme{
+	--back-color:white;
+	--nav-item-color:rgb(248, 244, 244);
+	--nav-item-active-color:rgba(232, 11, 151, 0.995);
+	--nav-item-hover-color:rgba(116, 121,252 );
+	--icon-color:rgb(217, 0, 255);
+	--icon-color:blue;
 }
 
-.btn2:hover {
-	color: aliceblue;
-	background-color: #198754;
-	border: 2px solid #198754;
+.nav-link {
+  text-decoration: none;
+  color: var(--nav-item-color);
+
+}
+
+.nav-link:hover {
+  color: var(--nav-item-hover-color);
+  text-decoration: none;
+}
+.btn-1{
+	color: var(--btn-color);
+	background-color: var(--btn-background-color);
+	border: 2px solid var(--btn-color);
+	padding: 5px;
+	padding-left:14px ;
+	padding-right: 14px;
+	border-radius: 5px;
+
+}.bi-brightness-high-fill{
+	color:var(--icon-color);
+	font-size: 24px;
+
 }
